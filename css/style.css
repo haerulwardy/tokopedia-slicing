@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #03AC0E;
+    --text-color: #393D43;
+    --default-color: #FFFFFF;
+    --gray-color: #F3F4F5;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.icon {
+    width: 1.25em;
+    color: var(--text-color);
+}
+
+/* topbar */
+.topbar-download-title {
+    opacity: 0.6;
+    color: var(--text-color);
+}
+.topbar-menus a {
+    color: var(--text-color);
+    opacity: 0.6;
+}
+.topbar-menus a:hover {
+    color: var(--primary-color);
+}
+/* end topbar */
+
+/* nav */
+.nav-category {
+    font-size: 0.85em;
+    opacity: 0.6;
+}
+.nav-search {
+    width: 64%;
+    /* background-color: red; */
+}
+.nav-btn {
+    background-color: var(--gray-color);
+}
+.form-control:focus {
+    outline: none !important;
+    border-color: var(--primary-color);
+}
+.form-control:focus + .nav-btn {
+    outline: none !important;
+    border-width: 3px;
+    /* border-color: var(--primary-color) !important; */
+    border-top-color: var(--primary-color) !important;
+    border-right-color: var(--primary-color) !important;
+    border-bottom-color: var(--primary-color) !important;
+    /* background-color: red; */
+}
+.btn-nav-outline {
+    border-color: var(--primary-color) !important;
+}
+.btn-nav-outline:hover {
+    background-color: transparent !important;
+    color: var(--primary-color);
+}
+.btn-nav {
+    background-color: var(--primary-color) !important;
+}
+/* end nav */
